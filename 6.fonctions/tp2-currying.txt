@@ -1,0 +1,10 @@
+TP2:
+Vous devez coder une fonction getPriceWithTaxes(price, taxRate) qui prend un prix et un taux de TVA (entre 0 et 1) et retourne le prix final avec les taxes.
+Par exemple:
+getPriceWithTaxes(100, 0.2) doit retourner 120 (100 + 20% de taxes)
+getPriceWithTaxes(50, 0.1) doit retourner 55 (50 + 10% de taxes)
+Pour cet exercice, vous devez:
+1. Coder la fonction getPriceWithTaxes de manière classique
+2. Refactorer cette fonction pour utiliser un style curryfié
+3. Définir des fonctions réutilisables getVAT, getRegionTax, etc pour les différents taux de taxes
+4. Appeler ces fonctions curryfiées(avec le currying:grin:) pour calculer des prix avec les taxes
