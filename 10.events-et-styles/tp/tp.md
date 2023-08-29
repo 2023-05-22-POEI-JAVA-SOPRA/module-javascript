@@ -9,7 +9,7 @@ Mettre en place un bouton "Aléatoire" qui, lorsqu'il est cliqué, remplace alé
 2. Lorsque le bouton "Aléatoire" est cliqué, générez aléatoirement une nouvelle valeur pour chaque élément de la liste.
 3. Si la nouvelle valeur est différente de la précédente, appliquez un style pour indiquer que la valeur de l'élément a changé.
 4. Assurez-vous qu'une valeur déjà utilisée lors d'un clic précédent sur le bouton "Aléatoire" ne peut pas être réutilisée.
-5. Afficher les anciennes et nouvelles valeurs dans une sidebar/tooltip au survol des éléments modifiés
+<!-- 5. Afficher les anciennes et nouvelles valeurs dans une sidebar/tooltip au survol des éléments modifiés -->
 
 **Liste de Technologies:**
 
@@ -75,3 +75,8 @@ const frameworks = [
 
 - Utilisez la méthode `Math.random()` pour générer des indices aléatoires dans le tableau.
 - Utilisez une structure conditionnelle pour vérifier si la nouvelle valeur est différente de l'ancienne avant d'appliquer des changements visuels.
+
+**Bonus**
+
+- Ajouter un compteur qui affiche le nombre de changements effectués à chaque clic sur le bouton “Aléatoire”
+- Permettre à l’utilisateur de fournir sa propre liste personnalisée à modifier avec des entrés prompt et qui vont ensuite s’ajouter dans le tableau
