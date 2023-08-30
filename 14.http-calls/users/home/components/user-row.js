@@ -6,7 +6,7 @@ export function UserRow(user) {
         <td>${user.address.city}</td>
         <td>${user.phone}</td>
         <td>${user.company.name}</td>
-        <td><a href="details.html?id=${user.id}">Voir</a></td>
+        <td><a href="/users/details/details.html?id=${user.id}">Voir</a></td>
     </tr>
     `;
 }
